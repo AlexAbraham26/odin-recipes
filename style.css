@@ -1,0 +1,27 @@
+* {
+    background-color: skyblue;
+    font-family: Arial, "Times New Roman", Sans-Serif;
+}
+
+body {
+    margin: auto;
+    width: 50%;
+    border: 10px black;
+    padding: 10px;
+}
+h1 {
+    color: black;
+    font-size: 45px;
+    text-align: center;   
+}
+
+.home_img {
+    text-align: center;
+}
+
+    
+#menu {
+    padding-left: 0;
+    text-align: center;
+    list-style-position: inside;
+}

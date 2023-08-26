@@ -1,27 +1,57 @@
 * {
-    background-color: skyblue;
+    background-color: #fffdd0;
     font-family: Arial, "Times New Roman", Sans-Serif;
+    
 }
 
-body {
-    margin: auto;
-    width: 50%;
-    border: 10px black;
-    padding: 10px;
+body  {
+     
+    width: 500px;
+    min-width: 200px;
+    margin: 0 auto;
+ 
+    
 }
 h1 {
-    color: black;
+    color: #800020;
     font-size: 45px;
-    text-align: center;   
+    text-align: center; 
+    padding: 5px;
+    border: 5px solid black;  
 }
 
-.home_img {
+.images { 
+    /* width: 50%;
+    height: 500px;
     text-align: center;
+    padding: 10px;
+    border: 5px solid black;
+    font-size: 15px; */
+    box-sizing: border-box;
+    width: 500px;
+    height: 550px;
+    min-width: auto;
+    object-fit: cover;
+    padding: 20px;
+    margin-top: 10px; 
+    border: 5px solid black;
+
 }
 
     
 #menu {
-    padding-left: 0;
-    text-align: center;
+    text-align: left;
     list-style-position: inside;
+    padding: 5px;
+    border: 5px solid black;
+    font-size: 17.5px;
+    
+}
+
+.ingredients { 
+    
+}
+
+.steps { 
+    
 }
